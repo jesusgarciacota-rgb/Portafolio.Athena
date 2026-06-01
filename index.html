@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio de Evidencias - Athena Espinoza</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header id="hero"></header>
+
+  <main id="main-content">
+    <nav id="tabs-nav" role="tablist"></nav>
+    <div id="tab-content" role="tabpanel"></div>
+  </main>
+
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true">
+    <div class="lightbox-overlay"></div>
+    <div class="lightbox-container">
+      <button class="lightbox-close" aria-label="Cerrar">&times;</button>
+      <button class="lightbox-prev" aria-label="Imagen anterior">&#10094;</button>
+      <button class="lightbox-next" aria-label="Imagen siguiente">&#10095;</button>
+      <img id="lightbox-img" src="" alt="">
+      <p id="lightbox-caption"></p>
+      <span id="lightbox-counter"></span>
+    </div>
+  </div>
+
+  <footer id="footer"></footer>
+
+  <script src="actividades.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
